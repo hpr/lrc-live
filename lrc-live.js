@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name    		LRC Live
-// @namespace		lrc-live
-// @description     Live-update (auto-refresh) LetsRun.com threads and get notified when new posts come in
-// @match    		https://www.letsrun.com/forum/flat_read.php*
-// @version  		1.3
-// @grant    		none
+// @name        LRC Live
+// @namespace   lrc-live
+// @description Live-update (auto-refresh) LetsRun.com threads and get notified when new posts come in
+// @match       https://www.letsrun.com/forum/flat_read.php*
+// @version     1.3
+// @grant       none
 // ==/UserScript==
 
 const urlParams = new URLSearchParams(window.location.search);
