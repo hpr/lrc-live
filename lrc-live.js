@@ -3,7 +3,7 @@
 // @namespace		https://habs.sdf.org/#lrc-live
 // @description Live-update (auto-refresh) LetsRun.com threads
 // @match    		https://www.letsrun.com/forum/flat_read.php*
-// @version  		1
+// @version  		1.1
 // @grant    		none
 // ==/UserScript==
 
