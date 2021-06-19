@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "LRC Live",
-    "version": "1.1",
+    "version": "1.2",
 
     "description": "Live-update (auto-refresh) LetsRun.com threads and get notified when new posts come in",
 
