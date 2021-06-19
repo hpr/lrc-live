@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "LRC Live",
+    "version": "1.0",
+
+    "description": "Live-update (auto-refresh) LetsRun.com threads and get notified when new posts come in",
+
+    "icons": {
+	    "48": "icons/lrc-live-48.png",
+    	"96": "icons/lrc-live-96.png"
+    },
+
+    "content_scripts": [
+	    {
+	        "matches": ["https://www.letsrun.com/forum/flat_read.php*"],
+	        "js": ["lrc-live.js"]
+	    }
+    ]
+
+}
